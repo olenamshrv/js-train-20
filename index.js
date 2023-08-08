@@ -82,7 +82,7 @@ Car.prototype.accelerate = function (number) {
 Car.prototype.brake = function (number) {
   this.speed -= number;
   console.log(
-    `Автомобіль ${this.brand} ${this.model} зменшив до швидкості ${this.speed} км/год`
+    `Автомобіль ${this.brand} ${this.model} зменшив швидкість до ${this.speed} км/год`
   );
 };
 
@@ -170,7 +170,7 @@ function Truck(
     if (load > towingCapacity) {
       console.log("Навантаження занадто важке для буксирування");
     } else {
-      console.log("Тягнення навантаження");
+      console.log("Тягнення навантаження...");
     }
   };
 }
